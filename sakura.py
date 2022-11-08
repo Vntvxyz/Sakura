@@ -35,12 +35,12 @@ def si():
 def menu():
     sys.stdout.write(f"Sakura Ddos Update 1.5.8")
     clear()
-    print('Sakura DDoS By NgThanhVinh [iuKhanhHuyenn] ')
+    print('Sakura DDoS By NgThanhVinh[DEV] ')
     print("NGUYỄN THÀNH VINH")
-    print(Fore.YELLOW + """
+    print(Fore.BLUE + """
  
  ██████  ▄▄▄       ██ ▄█▀ █    ██  ██▀███   ▄▄▄      
-▒██    ▒ ▒████▄    ██▄█▒  ██  ▓██▒▓██ ▒ ██▒▒████▄    
+▒██    ▒ ▒████▄    ██▄█▒  ██   ▓██▒▓██ ▒ ██▒▒████▄    
 ░ ▓██▄   ▒██  ▀█▄  ▓███▄░ ▓██  ▒██░▓██ ░▄█ ▒▒██  ▀█▄  
   ▒   ██▒░██▄▄▄▄██ ▓██ █▄ ▓▓█  ░██░▒██▀▀█▄  ░██▄▄▄▄██ 
 ▒██████▒▒ ▓█   ▓██▒▒██▒ █▄▒▒█████▓ ░██▓ ▒██▒ ▓█   ▓██▒
@@ -54,7 +54,7 @@ def menu():
 def main():
     menu()
     while(True):
-        cnc = input('''Input :''')
+        cnc = input('''DDoS Web Nào Hắc Lỏ :''')
         if cnc == "layer7" or cnc == "LAYER7" or cnc == "L7" or cnc == "l7":
             ()
         elif cnc == "layer4" or cnc == "LAYER4" or cnc == "L4" or cnc == "l4":
